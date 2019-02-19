@@ -75,7 +75,7 @@ public class TestAll {
 
 	}
 	
-	//ajout d'un nouveau test
+	//ajout d'un nouveau testddaz
 	@Test
 	public void testingWithPonctuation() throws IOException {
 
