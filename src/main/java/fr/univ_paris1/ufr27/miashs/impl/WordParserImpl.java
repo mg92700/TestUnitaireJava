@@ -36,6 +36,7 @@ public class WordParserImpl extends WordParser {
 	    	  String[] ary =ligne.split(" ");
 	    	  for(String s : ary)
 	    	  {
+			  //verification des champs
 	    		  String chaineFinal=s.replaceAll("[^A-Za-z0-9]", "");
 	    		  chaineFinal=chaineFinal.trim();
 	    		  chaineFinal=chaineFinal.toLowerCase();
